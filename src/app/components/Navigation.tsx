@@ -42,7 +42,7 @@ export default function Navigation() {
                 Events <ChevronDown className="w-4 h-4" />
               </button>
               {eventsDropdownOpen && (
-                <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-lg border border-[var(--border)] py-2">
+                <div className="absolute left-0 w-56 bg-white rounded-xl shadow-lg border border-[var(--border)] py-2" style={{ top: "20px" }}>
                   <Link
                     to="/events/corporate"
                     className="block px-4 py-3 text-[var(--caramel)] hover:bg-[var(--cream)] hover:text-[var(--espresso)] transition-colors"
